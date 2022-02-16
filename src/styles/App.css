@@ -1,0 +1,111 @@
+/* ---------------------------------- */
+body {
+  font-family: "Futura PT";
+  background-color: #eee;
+  color: #707070;
+}
+
+.bodiniFont,
+.Contact input, .Contact textarea,
+.project p {
+  font-family: "Bodoni72C Regular" !important;
+  font-weight: normal;
+}
+
+#skills h2, .Contact h2, #role, .Header {
+  color: #be5243;
+}
+
+.Header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 30px;
+}
+
+.Header span {
+  font-size: 58px;
+}
+
+.Header ul {
+  font-size: 24px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.Header ul li {
+  padding-right: 25px;
+}
+
+.Home {
+  height: 100vh;
+}
+
+.Home h1 {
+  font-size: 80px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.Home h2 {
+  font-size: 35px;
+  margin: 0;
+  line-height: 50px;
+}
+
+.Home .name {
+  max-width: 500px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.Projects {
+  margin: auto;
+}
+
+.Projects h2 {
+  margin: 0 auto;
+  text-align: left;
+  border-bottom: 3px solid #707070;
+  width: 40%;
+  font-size: 60px;
+  padding-bottom: 15px;
+}
+
+.Projects .project h3 {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .Header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Projects h2 {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=App.css.map */
